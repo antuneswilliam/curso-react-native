@@ -1,11 +1,20 @@
 import React from 'react';
+import { View, Text } from 'react-native';
 
-import { View, Text } from 'react-native'
+// export default class HomeScreen extends React.Component {
+//     render() {
+//         return (
+//             <View>
+//                 <Text>Home Screen</Text>
+//             </View>
+//         );
+//     }
+// }
 
 export default function Main() {
     return (
         <View>
-            <Text>Página Main</Text>
+            <Text>Home Screen!</Text>
         </View>
-    );
+    )
 }

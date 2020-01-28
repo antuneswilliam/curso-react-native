@@ -1,24 +1,17 @@
-// import React from 'react';
-// import { StyleSheet, View, Text } from 'react-native';
-// import Appl from './src';
+import React from 'react';
+import Routes from './src/routes'
+import './src/config/StatusBarConfig';
 
-// export default function App() {
-//   return (
-//       <Appl />
-//   );
+// export default class App extends React.Component {
+//     render() {
+//         return (
+//             <Routes />
+//         );
+//     }
 // }
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#999',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
-
-
-import { createAppContainer } from 'react-navigation';
-const App = createAppContainer(Appl);
-
-export default App;
+export default function App() {
+    return (
+        <Routes />
+    )
+}
